@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="es">
+  <head>
+
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author" content="Dariel De">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="widht=device-width, initial-sacle1">
+    <!--Titulo-->
+    <title>Dariel De | PORTAFOLIO FRONT-END</title>
+    <!--Icono-->
+    <link rel="icon" type="image/x-icon" href="IMAGENES/bootstrap.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Iconos de bootsrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link href="style.css" rel="stylesheet">
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-light text-bg-primary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-Toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Toggler">
+          <a class="navbar-brand" href="#">
+            <img src="IMAGENES/code.svg" width="50" alt="logopng"></a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#referencias">Referencias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--seccion principal (HERO) streech = stirar-->
+    <section class="hero align-items-lg-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-perfil"src="IMAGENES/Profile.svg" width="45" alt="foto de Dariel">
+        <h1>Hola, soy Dariel Dilone Espinal</h1>
+        <h2>Desarrollo sitios webs</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen image-fluid" src="IMAGENES/MMonitorprinc.png" alt="laptop, logos, html, css, js, y React">
+
+      </div>
+    </section>
+
+    <!--Sobre mi-->
+    <section id="sobre-mi"class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo texto-blanco">Sobre mi</h2>
+        <p  class="seccion-texto">Lorem ipsdiet arcitum dolor sit amet, consectetur adipisibero. Donec ac semper nulla, eu tincidunt ante. Etiam at laoreet nibh, quis placerat ipsum.</p>
+      </div>
+    </section>
+
+    <!--Experiencia-->
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollo web-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla  dolor. </p>
+            <div class="badged-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">React</span>
+            </div>
+          </div>
+
+          <!--Articulos-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Artículos</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+            <div class="badged-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Personalizar</span>
+            </div>
+          </div>
+
+          <!--Estudios-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, ode, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+            <div class="badged-contenedor">
+              <span class="badge text-bg-primary">freeCodeCamp</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Udemy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+      
+    </section>
+
+<!--proyectos-->
+
+    <section id="proyectos"class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he crado recientemente</h3>
+      
+      <!--Galeria de proyectos-->
+      <div class="container text-center proyectos-contenedor">
+       <div class="row">
+                             <!--Proyecto1-->
+          <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img class="" src="IMAGENES/Proyecto1.png" alt="Proyecto 1">
+                        <div class="overlay">
+                          <p>Proyecto 1</p>
+                          <div class="iconos-contenedor">
+                            <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+         </div>
+                              <!--Proyecto2-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="" src="IMAGENES/Proyecto2.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+         </div>
+                             <!--Proyecto3-->
+           <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img class="" src="IMAGENES/Proyecto3.png" alt="Proyecto 1">
+                        <div class="overlay">
+                          <p>Proyecto 1</p>
+                          <div class="iconos-contenedor">
+                            <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+                              <!--Proyecto4-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="" src="IMAGENES/Proyecto4.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+                              <!--Proyecto5-->
+          <div class="col-12 col-md-6 col-lg-4">
+                      <div class="proyecto">
+                        <img class="" src="IMAGENES/Proyecto 5.png" alt="Proyecto 1">
+                        <div class="overlay">
+                          <p>Proyecto 1</p>
+                          <div class="iconos-contenedor">
+                            <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                              <i class="bi bi-instagram"></i>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+          </div>
+                              <!--Proyecto6-->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img class="" src="IMAGENES/Proyecto 6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.instagram.com/_just_dariel/"target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="http://127.0.0.1:5500/index.html" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        Mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+    </section>
+
+    <!--Articulos-->
+
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Mas recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Curso de react mas JavaScript
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Aprende Pyhton con Django
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Curso html css desde 0
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+             Aprender python intensivo desde 0
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!--Testimonios-->
+    <section id="referencias"class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Referencias</h2>
+      <h3 class="seccion-descripcion">Estas son referencias de mis companeros</h3>
+
+     <!--Carrusel-->
+     <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="IMAGENES/badbunny.webp" alt="Foto de Gino">
+            <p class="testimonio-texto"> Born in the Bahamas, Bad Bunny discovered his love for music at a young age. Inspired by merengue, he devoted himself to perfecting his singing and artistic talent. Today, acclaimed as a prominent merengue singer, his unique style and stage presence have made him an iconic figure in the music world.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Bad bunny</p>
+              <p class="cargo">I am an Bahamas merengue singer</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="IMAGENES/pesopluma.webp" alt="Foto de Nora">
+            <p class="testimonio-texto">Featherweight, born in Haiti, discovered his love for music early on. Fascinated by bachata, he immersed himself in its distinctive singing and dancing. Today, acclaimed as a bachata singer, his unique style and infectious energy have propelled him to stardom.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Peso Pluma</p>
+              <p class="cargo">I am a mexican bachata singer </p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="IMAGENES/Justin.jpg" alt="Foto de Leonardo">
+            <p class="testimonio-texto">Born in China, Justin Bieber discovered his love for music at a young age. Inspired by various genres, he honed his singing and songwriting skills. Today, acclaimed as a global pop sensation, his distinctive style and magnetic stage presence have made him an icon in the world of music.</p>
+            <div class="testimonio-info">
+              <p class="cliente">Justin Bieber</p>
+              <p class="cargo">Hi I am a kpop singer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+    </section>
+
+    <!--Contactos-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame!
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:mrdariel2@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-logo" src="IMAGENES/Nuevologo.png" alt="logo-footer">
+      <p class="footer-texto text-center">Piensa y crea.<br>A crear!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/xDariel12?s=09" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="https://www.instagram.com/invites/contact/?i=q479jn9ogwng&utm_content=am4rka5" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+          <a href="https://wa.me/8296607758" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+            <a href="https://github.com/dashboard" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="mailto:mrdariel2@gmail.com" target="_blank" rel="noopener noreferrer">
+              <i class="bi bi-envelope"></i>
+            </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Dariel Dilone Espinal (2023) &#169; </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html
